@@ -1,0 +1,60 @@
+.header{
+    height: 42vw;
+    width: 100%; /* Ensure the width is defined */
+    max-width: 1200px; /* You can set a max width if needed */
+    margin: 2px auto; /* This centers the element horizontally */
+    background: url('/header_img2.png') no-repeat center center; /* Centers the background image */
+    background-size: contain;
+    position: relative;
+}
+
+.header-contents{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1.5vw;
+    max-width: 50%;
+    bottom: 10%;
+    left: 6vw;
+    animation: fadeIn 3s;
+}
+.header-contents h2{
+    font-weight: 500;
+    color: rgb(29, 29, 29);
+    font-size: max(4.5vw,22px);
+
+}
+
+.header-contents p{
+    color: white;
+    font-size: 1vw;
+}
+.header-contents button{
+    border: none;
+    color: #747474;
+    font-weight: 500;
+    padding: 1vw 2.3vw;
+    background-color: rgb(255, 255, 255);
+    font-size:max(1vw,13px);
+    border-radius: 50px;
+    margin-left: 80px;
+}
+
+@media (max-width:1050px){
+    .header-contents{
+        max-width: 45%;
+    }
+}
+
+@media (max-width:750px){
+    .header-contents{
+        max-width: 65%;
+    }
+    .header-contents p{
+       display: none;
+    }
+    .header-contents button{
+        padding: 2vw 4vw;
+    }
+}
