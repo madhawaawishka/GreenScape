@@ -11,7 +11,7 @@ import { Helmet } from 'react-helmet';
 
 const App = () => {
 
-  const url="http://localhost:4000"
+  const url="https://greenscape-backend.onrender.com"
   return (
     <div>
        <Helmet>
