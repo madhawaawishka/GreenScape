@@ -1,11 +1,16 @@
-sample card Details for the payments:
-United States (US)	4242424242424242	Visa
-Argentina (AR)	4000000320000021	Visa
-Brazil (BR)	4000000760000002	Visa
-Canada (CA)	4000001240000000	Visa
-Chile (CL)	4000001520000001	Visa
+## Sample Card Details for Payments
 
+| Country            | Card Number        | Card Type |
+|--------------------|--------------------|-----------|
+| United States (US) | 4242 4242 4242 4242 | Visa       |
+| Argentina (AR)     | 4000 0003 2000 0021 | Visa       |
+| Brazil (BR)        | 4000 0007 6000 0002 | Visa       |
+| Canada (CA)        | 4000 0012 4000 0000 | Visa       |
+| Chile (CL)         | 4000 0015 2000 0001 | Visa       |
 
-sample login for the user:
-perera@gmail.com
-12345678
+---
+
+## Sample Login for the User
+
+**Email:** perera@gmail.com  
+**Password:** 12345678
